@@ -1,0 +1,30 @@
+name: slideshow_app
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  file_picker: ^7.0.2
+  image: ^4.2.0
+  path_provider: ^2.1.2
+  ffmpeg_helper: ^1.0.1
+  ffmpeg_kit_flutter_min_gpl: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  
